@@ -15,7 +15,7 @@ body {
 main {
     margin-left: 20%;
     margin-right: 20%;
-    text-align: left;
+    text-align: center;
   }
 
   /* Cabecera */
@@ -96,7 +96,31 @@ nav li a:hover {
 
 /* Main */
 
+/* index */
 
+.index-oscar-club {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.how-use img {
+    max-width: 120px;
+}
+
+.how-use {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.index-unete {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.index-unete-text{
+    font-size: 1.5rem;
+    text-align: left;
+}
 
 /* Pie de pagina */
 
@@ -199,6 +223,27 @@ footer p {
     }
 
     /* Main */
+
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+    /* index */
+    .index-oscar-club {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .how-use {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+    .index-unete {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
     /* Pie de pagina */
     footer {
