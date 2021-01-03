@@ -187,6 +187,49 @@ nav li a:hover {
     width: 100%;
 }
 
+/* Sesiones 2020 */
+
+.sesiones {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+
+.text-left{
+    text-align: left;
+}
+.sesiones-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 2px dotted #9b1700;
+}
+
+.sesiones-nav a{
+    display: block;
+    color: #1c1c1c;
+}
+
+.sesiones-nav a:hover{
+    color: rgba(28, 28, 28, 0.5);
+}
+
+.sesiones-nav-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sesiones-nav-item img {
+    max-width: 100%;
+}
+
+.sesiones-nav-item div{
+    background-color: white;
+    margin: 10px;
+}
+
+.sesiones-nav-item div a{
+    display: block;
+}
 
 /* Pie de pagina */
 
@@ -313,18 +356,39 @@ footer p {
 
     /* Clubes tematicos */
 
-.clubes-section {
-    display: grid;
-    grid-template-columns: 1fr;
-}
+    .clubes-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
-/* .club-item {
-    margin: 0px 10px 20px 10px;
-}
+    /* Sesiones 2020 */
 
-.club-item img {
-    width: 100%;
-} */
+    .sesiones {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .sesiones-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        border-top: 0px;
+    }
+
+    .sesiones-nav-item {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .sesiones-nav-item div{
+        background-color: white;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .sesiones-nav-item div:last-child{
+        margin-bottom: 40px;
+    }
+
 
     /* Pie de pagina */
     footer {
