@@ -122,6 +122,54 @@ nav li a:hover {
     text-align: left;
 }
 
+.index-unete form input{
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.index-unete form div {
+    display: block;
+    font-size: 0.75rem;
+    text-align: left;
+  }
+
+.index-unete a {
+    color: #9b1700;
+}
+
+.index-unete a:hover {
+    color: #1c1c1c;
+}
+
+.form-checkbox {
+    display: block;
+}
+
+.index-unete .form-checkbox input{
+    margin-top: 30px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.index-unete .form-checkbox label{
+    display: inline;
+}
+
+.index-unete form input[type="submit"] {
+    border: 0px;
+    background-color: #9b1700;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+  }
+
 /* Pie de pagina */
 
 footer {
