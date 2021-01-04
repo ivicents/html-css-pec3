@@ -193,6 +193,16 @@ form {
 
 /* Sesiones 2020 */
 
+.sesiones-nav-item div {
+    position: relative;
+    padding-bottom: 40px;
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 .sesiones {
     margin-left: 10%;
     margin-right: 10%;
