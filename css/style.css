@@ -231,6 +231,53 @@ nav li a:hover {
     display: block;
 }
 
+/* Detalle sesion */
+
+/* Style the list */
+ul.breadcrumb {
+    list-style: none;
+    text-align: left;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    color: rgb(28, 28, 28, 0.5);
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: rgb(28, 28, 28);
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: rgb(28, 28, 28, 0.5);
+  }
+
+  .detalle-sesion-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  dd {
+      margin: 5px 20px 5px 10px;
+  }
+
+  dt {
+    font-weight: bold;
+    border-bottom: 1px solid #1c1c1c;
+    margin: 5px 20px 5px 0px;
+  }
+
 /* Pie de pagina */
 
 footer {
