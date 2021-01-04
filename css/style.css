@@ -278,6 +278,29 @@ ul.breadcrumb {
     margin: 5px 20px 5px 0px;
   }
 
+    figure{
+        float:left;
+        max-width: 120px;
+        max-height: 120px;
+        shape-outside: circle();
+        margin: 0px;
+        margin-right: 10px;
+        overflow: hidden;
+    }
+    figure img{
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .video-breadcrumb {
+        margin-top: 0px;
+    }
+
+
 /* Pie de pagina */
 
 footer {
