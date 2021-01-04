@@ -237,6 +237,7 @@ nav li a:hover {
 ul.breadcrumb {
     list-style: none;
     text-align: left;
+    padding-left: 0px;
   }
   
   /* Display list items side by side */
@@ -298,6 +299,11 @@ ul.breadcrumb {
 
     .video-breadcrumb {
         margin-top: 0px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 400px;
     }
 
 
@@ -459,6 +465,31 @@ footer p {
         margin-bottom: 40px;
     }
 
+    /* Detalle sesion */
+
+    ul.breadcrumb {
+        list-style: none;
+        text-align: center;
+      }
+
+    .detalle-sesion-section {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      dd {
+          margin: 5px 0px 5px 10px;
+      }
+    
+      dt {
+        font-weight: bold;
+        border-bottom: 1px solid #1c1c1c;
+        margin: 5px 0px 5px 0px;
+      }
+    
+      iframe {
+          width: 100%;
+          height: 230px;
+      }
 
     /* Pie de pagina */
     footer {
