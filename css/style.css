@@ -131,6 +131,10 @@ nav li a:hover {
     text-align: left;
 }
 
+form {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .index-unete form input{
     display: block;
     height: 40px;
@@ -195,6 +199,10 @@ nav li a:hover {
     margin-bottom: 30px;
 }
 
+.sesiones-nav, .sesiones-section div h3, .sesiones-section div div a {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .text-left{
     text-align: left;
 }
@@ -232,6 +240,10 @@ nav li a:hover {
 }
 
 /* Detalle sesion */
+
+.breadcrumb {
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* Style the list */
 ul.breadcrumb {
