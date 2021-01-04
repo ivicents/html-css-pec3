@@ -215,6 +215,7 @@ form {
 .sesiones-nav a{
     display: block;
     color: #1c1c1c;
+    margin-bottom: 5px;
 }
 
 .sesiones-nav a:hover{
